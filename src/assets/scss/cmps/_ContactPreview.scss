@@ -1,0 +1,24 @@
+.contact-preview {
+  &:nth-child(odd) {
+    background-color: darken(#282c34, 5%);
+    &:hover {
+      background-color: darken(#282c34, 0%);
+    }
+  }
+  &:nth-child(even) {
+    background-color: lighten(#282c34, 5%);
+    &:hover {
+      background-color: lighten(#282c34, 0%);
+    }
+  }
+  display: flex;
+  color:white;
+  align-items: center;
+  // width: 90%;
+  justify-content: space-between;
+  border-radius: 8px;
+  min-width: 350px;
+  list-style: none;
+  padding: 6px;
+  margin: 2px;
+}

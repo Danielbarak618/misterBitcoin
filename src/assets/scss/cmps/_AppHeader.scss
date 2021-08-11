@@ -1,0 +1,21 @@
+.app-header {
+    height: 80px;
+    background-color: rgb(247, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+  
+      .active {
+        color: red;
+      }
+    }
+
+    .img-icon{
+        width: 40px;
+        
+    }
+  }

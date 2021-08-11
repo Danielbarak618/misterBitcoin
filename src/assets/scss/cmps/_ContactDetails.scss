@@ -1,0 +1,22 @@
+.details-actions{
+    display: flex;
+    justify-content: space-between;
+
+    .details-icon{
+        width: 30px;
+    }
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap:20px;
+
+    img{
+        border-radius: 6px;
+    }
+}
